@@ -8,7 +8,7 @@ export const filterSearch = searchID => {
 
         if (isNaN(searchID * 1) || searchID * 1 < 0 ||
             (searchID.toString().split('.')[1] !== undefined)) {
-
+var a =10;
             return false;
 
         } else {
